@@ -592,7 +592,7 @@ check_symbol_exists(getopt_long getopt.h HAVE_GETOPT_LONG)
 # xzdec
 #############################################################################
 
-if(HAVE_GETOPT_LONG)
+if(0)
     add_executable(xzdec
         src/common/sysdefs.h
         src/common/tuklib_common.h
@@ -630,7 +630,7 @@ endif()
 # xz
 #############################################################################
 
-if(NOT MSVC AND HAVE_GETOPT_LONG)
+if(0)
     add_executable(xz
         src/common/mythread.h
         src/common/sysdefs.h
